@@ -1,0 +1,242 @@
+html{
+    padding: 0, 0 , 0;
+    margin: 0;
+    width: 100%;
+    min-width: 300px;
+}
+body{
+    margin-left: 0;
+    background-color: #fff1e0;
+
+}
+body nav{
+    display:flex;
+    justify-content:space-around;
+    width: 100%;
+    align-items: center;
+    padding-top: 120px;
+    
+}
+
+
+.card1{
+    background-color: #009eb2;
+    width: 150px;
+    height: 242px; 
+    border-radius:6px;
+    display: block;
+    border:2px solid blueviolet;
+   
+}
+img{
+    width: 100px;
+    margin-left: 25px;
+}
+h2{
+    color:aliceblue;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.but{
+    border: none;
+    background-color: blueviolet;
+    color: aliceblue;
+    width:90px;
+    margin-left:30px ;
+}
+.card{
+    height: 175px;
+}
+.bottom{
+    width: 100%;
+    align-items: center;
+}
+h1 button:hover{
+    cursor: pointer;
+    color: blueviolet;
+}
+button:hover{
+    cursor: pointer;
+}
+.img2:hover{
+    width: 125px;
+    margin-left: 12.5px;
+    cursor: pointer;
+    transition-duration:100ms ;
+
+}
+h1{
+    background-color: #009eb2;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height:50px;
+    margin:0 0 0 ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+h1 button{
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22pt;
+    color: azure;
+    background-color: transparent;
+}
+.img2{
+    width: 120px;
+    margin-left: 15px;
+    border-bottom: 2px solid black;
+}
+.img1{
+position: fixed;
+ top: 4px ;
+ width:auto;
+ height:42px ;
+ right: 20px;
+}.footer{
+    background-color: #3f3f3f;
+    width: 100%;
+    height: 42px;
+    position: fixed;
+    bottom: 0;
+    color: azure;
+    text-align: center;
+    margin-top: 100px;
+
+  
+}p footer{
+    margin-top: 30px;
+    font-family: cursive;
+}
+.wapp{
+    position: absolute;
+    bottom: 60px;
+    left:90%;
+    width:60px;
+}
+.wapp:hover{
+    cursor:pointer;
+    width: 60px;
+}
+.home{
+    background-color: #009eb2;
+    justify-content: space-around;
+    color: aliceblue;
+    direction: row;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    height: 0px;
+   transition-duration: 300ms;
+   display: flex;
+    
+    
+}.li{
+list-style: none;
+visibility: hidden;
+transition-delay: 80ms;
+display: flex;
+text-decoration: none;
+justify-content: space-around;  
+width: 100%;
+}
+.li2{
+    list-style: none;
+    visibility:visible;
+    transition-delay: 220ms;
+    display: flex;
+    text-decoration: none; 
+    justify-content: space-around;  
+    width: 100%;        
+}
+
+li:hover{
+    cursor:pointer;
+    border-bottom: 2px solid aliceblue;
+}
+li{
+    display: flex;
+   
+}
+
+.home2 {
+background-color: #009eb2;
+display: flex;
+justify-content: space-around;
+color: aliceblue;
+direction: row;
+position: fixed;
+top: 50px;
+width: 100%;
+height: 22px;
+display: flex;
+transition-duration: 300ms;
+
+}
+@media (max-width:900px) {
+    .wapp{
+        left:80%;
+    }
+}
+@media (max-width:600px){
+    .home2{
+        height: 200px;
+    }
+    .li2{
+        display: grid;
+        direction: column;
+        justify-content: left;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    
+    .li{
+        display: grid;
+        direction: column;
+        justify-content: left;
+        padding-left: 30px;
+    }
+    li:hover{
+border-bottom: none;
+    }
+    .wapp{
+        position: fixed;
+        left:83%;
+        bottom: 50px;
+    }
+    body nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .card1{
+        background-color: #009eb2;
+        width: 70%;
+        height: 280px; 
+        border-radius:6px;
+        display: block;
+        border:2px solid blueviolet;
+        justify-content: center;
+        margin-bottom: 50px;
+       
+       
+    }.img2{
+        width: 80%;
+        margin-left: 10%; 
+    }
+    .img2:hover{
+        width: 84%;
+        margin-left: 8%
+    }
+    .bottom{
+margin-top: 60px;
+width: 100%;
+text-align: center;
+    }
+    .but{
+        margin-left: 0;
+    }
+}
+
+    
